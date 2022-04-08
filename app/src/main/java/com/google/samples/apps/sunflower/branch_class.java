@@ -20,6 +20,9 @@ public class branch_class {
     public int id;
     public String name;
 
+    public branch_class() {
+    }
+
     public int getId() {
         return id;
     }
