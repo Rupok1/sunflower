@@ -8,3 +8,4 @@
 /captures
 .externalNativeBuild
 ktlint
+app/src/main/java/com/google/samples/apps/sunflower/ignore.txt
