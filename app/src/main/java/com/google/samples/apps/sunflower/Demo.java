@@ -20,6 +20,9 @@ public class Demo {
     public int id;
     public String name;
 
+    public Demo() {
+    }
+
     public int getId() {
         return id;
     }
