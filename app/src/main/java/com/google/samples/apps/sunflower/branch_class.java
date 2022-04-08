@@ -17,34 +17,26 @@
 package com.google.samples.apps.sunflower;
 
 public class branch_class {
-    public int id1;
-    public String name1;
-    public String address;
+    public int id;
+    public String name;
+
 
     public branch_class() {
     }
 
-    public int getId() {
-        return id1;
+    public void setId(int id) {
+        this.id = id;
     }
 
-    public void setId(int id) {
-        this.id1 = id;
+    public int getId() {
+        return id;
     }
 
     public String getName() {
-        return name1;
+        return name;
     }
 
     public void setName(String name) {
-        this.name1 = name;
-    }
-
-    public String getAddress() {
-        return address;
-    }
-
-    public void setAddress(String address) {
-        this.address = address;
+        this.name = name;
     }
 }
